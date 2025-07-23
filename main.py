@@ -2,6 +2,10 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+# Iniciar el server uvicorn main:app --reload
+                #   fastapi dev main.py
+
+
 @app.get("/")
 async def root():
     return "Hello, World!"
