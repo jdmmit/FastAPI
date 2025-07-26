@@ -6,3 +6,7 @@
 * fastapi dev main.py
 
 * uvicorn main:app --reload
+
+pip install sqlalchemy
+
+pip install pymysql

@@ -1,0 +1,16 @@
+-- Ver bases de datos
+SHOW DATABASES;
+
+-- Crear un usuario nuevo (recomendado)
+CREATE USER 'fast'@'localhost' IDENTIFIED BY 'Pruebas_2025';
+
+-- Dar privilegios al usuario
+GRANT ALL PRIVILEGES ON *.* TO 'fast'@'localhost' WITH GRANT OPTION;
+
+-- Aplicar cambios
+FLUSH PRIVILEGES;
+
+-- Salir
+EXIT;
+
+CREATE DATABASE storedb
